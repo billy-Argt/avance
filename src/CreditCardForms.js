@@ -50,7 +50,7 @@ const PaymentForm = () => {
                         <label htmlFor="number">Número de la tarjeta</label>
                         <input
                             type="text"
-                            className="form-control"
+                            className="input"
                             name="number"
                             maxLength="16"
                             placeholder="Número de tarjeta"
@@ -58,11 +58,11 @@ const PaymentForm = () => {
                             onFocus={handleFocus}
                         />
                     </div>
-                    <div className="form-group">
+                    <div className="">
                         <label htmlFor="Nombre">Nombre</label>
                         <input
                             type="text"
-                            className="form-control"
+                            className="input"
                             name="name"
                             maxLength="30"
                             placeholder="Nombre"
@@ -70,12 +70,12 @@ const PaymentForm = () => {
                             onFocus={handleFocus}
                         />
                     </div>
-                    <div className="form-row">
-                        <div className="form-group col-md-6">
+                    <div className="">
+                        <div className="">
                             <label htmlFor="expiry">Vencimiento</label>
                             <input
                                 type="text"
-                                className="form-control"
+                                className="input"
                                 name="expiry"
                                 maxLength="4"
                                 placeholder="Expiración"
@@ -83,11 +83,11 @@ const PaymentForm = () => {
                                 onFocus={handleFocus}
                             />
                         </div>
-                        <div className="form-group col-md-6">
+                        <div className="">
                             <label htmlFor="cvc">CVC</label>
-                            <input
+                            <input className="input"
                                 type="text"
-                                className="form-control"
+                               
                                 name="cvc"
                                 maxLength="4"
                                 placeholder="CVC"
@@ -98,7 +98,7 @@ const PaymentForm = () => {
                     </div>
                     <button
                         type="button"
-                        className="btn btn-success btn-block btn-lg"
+                        className="rounded-xl border border-black py-2 font-bold"
                         onClick={submitPayment}
                     >Pagar</button>
                 </form>
