@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import Cards from 'react-credit-cards';
-import 'react-credit-cards/es/styles-compiled.css'
+import { useState, useEffect } from 'react'//Funciona para leer y modificat el estado de un componente. Asi como la orientaciòn a objetos del getters y setters.
+import Cards from 'react-credit-cards-2';//Es el componente esportado desde la libreria de componentes de react-credit-cards-2 
+import 'react-credit-cards-2/dist/es/styles-compiled.css';//Son los estilos predeterminados de la libreria de react-credit-cards-2 para el estilo de su tarjeta.
 
 const PaymentForm = () => {
 

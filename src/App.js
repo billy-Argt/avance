@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CreditCardForm from './CreditCardForm';
+import PaymentForm from './CreditCardForms';
 
    
 function App() {
@@ -8,12 +8,11 @@ function App() {
     <div className="App">
 
       
-      <CreditCardForm />
+      <PaymentForm />
 
     </div>
   );
 }
 
 export default App;
-
 
