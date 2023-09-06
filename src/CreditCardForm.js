@@ -51,10 +51,11 @@ function CreditCardForm() {
             name="cardName"
             value={cardName}
             onChange={handleInputChange}
-            placeholder="HELEN QUEXEL"
+            placeholder="INGRESAR NOMBRE"
           />
         </div>
-        <div>
+        <div> 
+
           <label>Fecha de vencimiento:</label>
           <input
             type="text"
